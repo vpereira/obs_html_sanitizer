@@ -1,6 +1,7 @@
 # ObsHtmlSanitizer
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/obs_html_sanitizer`. To experiment with that code, run `bin/console` for an interactive prompt.
+OBS HTML sanitizer is the solution used by the
+[OBS](https://openbuildservice.org) to render markdown/syntax highligth and strip malicious HTML
 
 
 ## Status:
