@@ -3,7 +3,7 @@
 require "uri"
 require "cgi"
 require "set"
-require "rails/html/sanitizer" # TODO: refine it to the necessary dependencies
+require "rails/html/sanitizer"
 require "redcarpet"
 require "coderay"
 
