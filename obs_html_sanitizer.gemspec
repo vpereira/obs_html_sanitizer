@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Victor Pereira"]
   spec.email         = ["vpereira@suse.com"]
 
-  spec.summary       = "Write a short summary, because RubyGems requires one."
-  spec.description   = "Write a longer description or delete this line."
-  spec.homepage      = "https://github.com"
+  spec.summary       = "A Markdown sanitizer to be used in Open Build System"
+  spec.description   = "OBS HTML sanitizer is the solution used by the OBS to render markdown/syntax highligth and strip malicious HTML"
+  spec.homepage      = "https://github.com/vpereira/obs_html_sanitizer"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
 
@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   spec.add_dependency "coderay"
-  spec.add_dependency "rails", "~>6.0"
+  spec.add_dependency "rails-html-sanitizer", "~>1.0.3"
   spec.add_dependency "redcarpet"
 
   # For more information and examples about making a new gem, checkout our
