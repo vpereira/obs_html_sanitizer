@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 module ObsHtmlSanitizer
   class MarkdownRender < Redcarpet::Render::Safe
     def block_html(raw_html)

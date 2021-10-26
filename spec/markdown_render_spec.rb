@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require "spec_helper"
+
 RSpec.describe ObsHtmlSanitizer::MarkdownRender do
   let(:markdown_render) { described_class.new }
 
