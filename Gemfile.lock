@@ -3,6 +3,7 @@ PATH
   specs:
     obs_html_sanitizer (0.1.0)
       coderay
+      loofah
       rails-html-sanitizer (~> 1.0.3)
       redcarpet
 

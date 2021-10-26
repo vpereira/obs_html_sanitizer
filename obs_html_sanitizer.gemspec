@@ -31,6 +31,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "coderay"
   spec.add_dependency "rails-html-sanitizer", "~>1.0.3"
   spec.add_dependency "redcarpet"
+  spec.add_dependency "loofah"
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html

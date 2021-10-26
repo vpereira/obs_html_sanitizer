@@ -3,6 +3,7 @@
 require "uri"
 require "cgi"
 require "set"
+require "loofah"
 require "rails/html/sanitizer"
 require "redcarpet"
 require "coderay"
