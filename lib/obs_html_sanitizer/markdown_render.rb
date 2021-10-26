@@ -1,6 +1,4 @@
 # frozen_string_literal: true
-require 'rails/html/scrubbers'
-
 module ObsHtmlSanitizer
   class MarkdownRender < Redcarpet::Render::Safe
     def block_html(raw_html)
